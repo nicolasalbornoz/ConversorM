@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_margin="10dp">
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Conversor"
+                  android:textSize="50sp"
+                  android:layout_margin="50dp"
+                  android:gravity="center"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:background="@color/lightblue">
+
+            <Spinner android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:id="@+id/spMoneda1">
+
+            </Spinner>
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:hint="@string/_0"
+                      android:textAlignment="textEnd"
+                      android:textSize="30sp"
+                      android:textColor="@color/black"
+                      android:id="@+id/tvMoneda1"
+                      android:maxLines="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="5dp"
+                      android:background="@color/lightblue">
+
+            <Spinner android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:id="@+id/spMoneda2">
+
+            </Spinner>
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:id="@+id/tvMoneda2"
+                      android:textAlignment="textEnd"
+                      android:textSize="30sp"
+                      android:textColor="@color/black"
+                      android:maxLines="1"
+                      android:ellipsize="end"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_margin="10dp">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="30dp">
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_7"
+                    android:text="@string/_7"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_8"
+                    android:text="@string/_8"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_9"
+                    android:text="@string/_9"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_4"
+                    android:text="@string/_4"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_5"
+                    android:text="@string/_5"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_6"
+                    android:text="@string/_6"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_1"
+                    android:text="@string/_1"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_2"
+                    android:text="@string/_2"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_3"
+                    android:text="@string/_3"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_punto"
+                    android:text="@string/_punto"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_0"
+                    android:text="@string/_0"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_borrar"
+                    android:text="@string/_borrar"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp">
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/calcular"
+                    android:id="@+id/bt_calcular"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
